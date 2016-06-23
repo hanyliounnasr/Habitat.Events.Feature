@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\..\..\..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\..\..\..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{98DE0D1D-26F1-4CCA-847C-4E0FC2DBA5FC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sitecore.Foundation.Theming</RootNamespace>
+    <AssemblyName>Sitecore.Foundation.Theming</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bower.json" />
+    <Content Include="bower_components\bootstrap-sass\assets\fonts\bootstrap\glyphicons-halflings-regular.svg" />
+    <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="bower_components\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="bower_components\bootstrap-sass\assets\fonts\bootstrap\glyphicons-halflings-regular.eot" />
+    <Content Include="bower_components\bootstrap-sass\assets\fonts\bootstrap\glyphicons-halflings-regular.ttf" />
+    <Content Include="bower_components\bootstrap-sass\assets\fonts\bootstrap\glyphicons-halflings-regular.woff" />
+    <Content Include="bower_components\bootstrap-sass\assets\fonts\bootstrap\glyphicons-halflings-regular.woff2" />
+    <None Include="bundleconfig.json" />
+    <Content Include="bower_components\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="scripts\carousel.js" />
+    <Content Include="scripts\counter.js" />
+    <Content Include="scripts\disable-wffm-bootstrap.js" />
+    <Content Include="scripts\form.js" />
+    <Content Include="scripts\grid.js" />
+    <Content Include="scripts\lightbox.js" />
+    <Content Include="scripts\popover.js" />
+    <Content Include="scripts\search.js" />
+    <Content Include="scripts\sidebar.js" />
+    <Content Include="scripts\Sitecore.Foundation.Theming.js" />
+    <Content Include="scripts\Sitecore.Foundation.Theming.min.js">
+      <DependentUpon>Sitecore.Foundation.Theming.js</DependentUpon>
+    </Content>
+    <Content Include="scripts\theming.js" />
+    <Content Include="scripts\tooltip.js" />
+    <Content Include="styles\editor.css">
+      <DependentUpon>editor.scss</DependentUpon>
+    </Content>
+    <Content Include="styles\editor.min.css">
+      <DependentUpon>editor.css</DependentUpon>
+    </Content>
+    <Content Include="fonts\bitter-v7-latin-700.svg" />
+    <Content Include="fonts\bitter-v7-latin-italic.svg" />
+    <Content Include="fonts\bitter-v7-latin-regular.svg" />
+    <Content Include="App_Config\Include\Foundation\Foundation.Theming.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\open-sans-v13-latin-300.svg" />
+    <Content Include="fonts\open-sans-v13-latin-300italic.svg" />
+    <Content Include="fonts\open-sans-v13-latin-600.svg" />
+    <Content Include="fonts\open-sans-v13-latin-600italic.svg" />
+    <Content Include="fonts\open-sans-v13-latin-700.svg" />
+    <Content Include="fonts\open-sans-v13-latin-700italic.svg" />
+    <Content Include="fonts\open-sans-v13-latin-800.svg" />
+    <Content Include="fonts\open-sans-v13-latin-italic.svg" />
+    <Content Include="fonts\open-sans-v13-latin-regular.svg" />
+    <Content Include="packages.config" />
+    <Content Include="fonts\bitter-v7-latin-700.eot" />
+    <Content Include="fonts\bitter-v7-latin-700.ttf" />
+    <Content Include="fonts\bitter-v7-latin-700.woff" />
+    <Content Include="fonts\bitter-v7-latin-700.woff2" />
+    <Content Include="fonts\bitter-v7-latin-italic.eot" />
+    <Content Include="fonts\bitter-v7-latin-italic.ttf" />
+    <Content Include="fonts\bitter-v7-latin-italic.woff" />
+    <Content Include="fonts\bitter-v7-latin-italic.woff2" />
+    <Content Include="fonts\bitter-v7-latin-regular.eot" />
+    <Content Include="fonts\bitter-v7-latin-regular.ttf" />
+    <Content Include="fonts\bitter-v7-latin-regular.woff" />
+    <Content Include="fonts\bitter-v7-latin-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\open-sans-v13-latin-300.eot" />
+    <Content Include="fonts\open-sans-v13-latin-300.ttf" />
+    <Content Include="fonts\open-sans-v13-latin-300.woff" />
+    <Content Include="fonts\open-sans-v13-latin-300.woff2" />
+    <Content Include="fonts\open-sans-v13-latin-300italic.eot" />
+    <Content Include="fonts\open-sans-v13-latin-300italic.ttf" />
+    <Content Include="fonts\open-sans-v13-latin-300italic.woff" />
+    <Content Include="fonts\open-sans-v13-latin-300italic.woff2" />
+    <Content Include="fonts\open-sans-v13-latin-600.eot" />
+    <Content Include="fonts\open-sans-v13-latin-600.ttf" />
+    <Content Include="fonts\open-sans-v13-latin-600.woff" />
+    <Content Include="fonts\open-sans-v13-latin-600.woff2" />
+    <Content Include="fonts\open-sans-v13-latin-600italic.eot" />
+    <Content Include="fonts\open-sans-v13-latin-600italic.ttf" />
+    <Content Include="fonts\open-sans-v13-latin-600italic.woff" />
+    <Content Include="fonts\open-sans-v13-latin-600italic.woff2" />
+    <Content Include="fonts\open-sans-v13-latin-700.eot" />
+    <Content Include="fonts\open-sans-v13-latin-700.ttf" />
+    <Content Include="fonts\open-sans-v13-latin-700.woff" />
+    <Content Include="fonts\open-sans-v13-latin-700.woff2" />
+    <Content Include="fonts\open-sans-v13-latin-700italic.eot" />
+    <Content Include="fonts\open-sans-v13-latin-700italic.ttf" />
+    <Content Include="fonts\open-sans-v13-latin-700italic.woff" />
+    <Content Include="fonts\open-sans-v13-latin-700italic.woff2" />
+    <Content Include="fonts\open-sans-v13-latin-800.eot" />
+    <Content Include="fonts\open-sans-v13-latin-800.ttf" />
+    <Content Include="fonts\open-sans-v13-latin-800.woff" />
+    <Content Include="fonts\open-sans-v13-latin-800.woff2" />
+    <Content Include="fonts\open-sans-v13-latin-italic.eot" />
+    <Content Include="fonts\open-sans-v13-latin-italic.ttf" />
+    <Content Include="fonts\open-sans-v13-latin-italic.woff" />
+    <Content Include="fonts\open-sans-v13-latin-italic.woff2" />
+    <Content Include="fonts\open-sans-v13-latin-regular.eot" />
+    <Content Include="fonts\open-sans-v13-latin-regular.ttf" />
+    <Content Include="fonts\open-sans-v13-latin-regular.woff" />
+    <Content Include="fonts\open-sans-v13-latin-regular.woff2" />
+    <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <Content Include="styles\bootstrap.css">
+      <DependentUpon>bootstrap.scss</DependentUpon>
+    </Content>
+    <Content Include="styles\bootstrap.min.css">
+      <DependentUpon>bootstrap.css</DependentUpon>
+    </Content>
+    <Content Include="styles\dayfrost.css">
+      <DependentUpon>dayfrost.scss</DependentUpon>
+    </Content>
+    <Content Include="styles\dayfrost.min.css">
+      <DependentUpon>dayfrost.css</DependentUpon>
+    </Content>
+    <Content Include="styles\niteflight.css">
+      <DependentUpon>niteflight.scss</DependentUpon>
+    </Content>
+    <Content Include="styles\niteflight.min.css">
+      <DependentUpon>niteflight.css</DependentUpon>
+    </Content>
+    <Content Include="styles\vendor.css" />
+    <Content Include="styles\vendor.min.css">
+      <DependentUpon>vendor.css</DependentUpon>
+    </Content>
+    <Content Include="styles\white-wonder.css">
+      <DependentUpon>white-wonder.scss</DependentUpon>
+    </Content>
+    <Content Include="styles\white-wonder.min.css">
+      <DependentUpon>white-wonder.css</DependentUpon>
+    </Content>
+    <Content Include="scripts\Sitecore.Foundation.Theming.min.js.map">
+      <DependentUpon>Sitecore.Foundation.Theming.min.js</DependentUpon>
+    </Content>
+    <Content Include="styles\bootstrap.scss" />
+    <Content Include="styles\dayfrost.scss" />
+    <Content Include="styles\niteflight.scss" />
+    <Content Include="styles\white-wonder.scss" />
+    <Content Include="styles\_variables.scss" />
+    <Content Include="styles\_fonts.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_address.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_alert.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_badges.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_blockquote.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_breadcrumbs.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_buttons.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_counter.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_dropdowns.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_forms.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_headline.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_icon.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_images.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_labels.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_list-group.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_list.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_logo.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_modal.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_navs.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_pagination.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_panels.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_popover.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_progress-bars.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_tables.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_tabs-nav.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_thumbnails.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_tooltip.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_typography.scss" />
+    <Content Include="styles\dayfrost\components\atoms\_wells.scss" />
+    <Content Include="styles\dayfrost\components\molecules\_button-groups.scss" />
+    <Content Include="styles\dayfrost\components\molecules\_jumbotron.scss" />
+    <Content Include="styles\dayfrost\components\molecules\_media.scss" />
+    <Content Include="styles\dayfrost\components\molecules\_navbar.scss" />
+    <Content Include="styles\dayfrost\components\molecules\_sidebar.scss" />
+    <Content Include="styles\dayfrost\components\molecules\_testimony.scss" />
+    <Content Include="styles\dayfrost\components\organisms\_media-list.scss" />
+    <Content Include="styles\dayfrost\components\organisms\_mega-dropdown.scss" />
+    <Content Include="styles\dayfrost\components\organisms\_page-header.scss" />
+    <Content Include="styles\dayfrost\components\organisms\_panel-group.scss" />
+    <Content Include="styles\dayfrost\components\organisms\_tabs.scss" />
+    <Content Include="styles\dayfrost\templates\_article.scss" />
+    <Content Include="styles\dayfrost\templates\_aside.scss" />
+    <Content Include="styles\dayfrost\templates\_footer.scss" />
+    <Content Include="styles\dayfrost\templates\_header.scss" />
+    <Content Include="styles\dayfrost\templates\_section.scss" />
+    <Content Include="styles\dayfrost\templates\_sidebar.scss" />
+    <Content Include="styles\dayfrost\templates\_template.scss" />
+    <Content Include="styles\dayfrost\vendor\_owl-carousel.scss" />
+    <Content Include="styles\dayfrost\_fonts.scss" />
+    <Content Include="styles\dayfrost\_global.scss" />
+    <Content Include="styles\dayfrost\_grid.scss" />
+    <Content Include="styles\dayfrost\_helpers.scss" />
+    <Content Include="styles\dayfrost\_mixins.scss" />
+    <Content Include="styles\dayfrost\_overrides.scss" />
+    <Content Include="styles\dayfrost\_scaffolding.scss" />
+    <Content Include="styles\dayfrost\_utilities.scss" />
+    <Content Include="styles\dayfrost\_variables.scss" />
+    <Content Include="styles\niteflight\components\atoms\_address.scss" />
+    <Content Include="styles\niteflight\components\atoms\_alert.scss" />
+    <Content Include="styles\niteflight\components\atoms\_badges.scss" />
+    <Content Include="styles\niteflight\components\atoms\_blockquote.scss" />
+    <Content Include="styles\niteflight\components\atoms\_breadcrumbs.scss" />
+    <Content Include="styles\niteflight\components\atoms\_buttons.scss" />
+    <Content Include="styles\niteflight\components\atoms\_counter.scss" />
+    <Content Include="styles\niteflight\components\atoms\_dropdowns.scss" />
+    <Content Include="styles\niteflight\components\atoms\_forms.scss" />
+    <Content Include="styles\niteflight\components\atoms\_headline.scss" />
+    <Content Include="styles\niteflight\components\atoms\_icon.scss" />
+    <Content Include="styles\niteflight\components\atoms\_images.scss" />
+    <Content Include="styles\niteflight\components\atoms\_labels.scss" />
+    <Content Include="styles\niteflight\components\atoms\_list-group.scss" />
+    <Content Include="styles\niteflight\components\atoms\_list.scss" />
+    <Content Include="styles\niteflight\components\atoms\_logo.scss" />
+    <Content Include="styles\niteflight\components\atoms\_modal.scss" />
+    <Content Include="styles\niteflight\components\atoms\_navs.scss" />
+    <Content Include="styles\niteflight\components\atoms\_pagination.scss" />
+    <Content Include="styles\niteflight\components\atoms\_panels.scss" />
+    <Content Include="styles\niteflight\components\atoms\_popover.scss" />
+    <Content Include="styles\niteflight\components\atoms\_progress-bars.scss" />
+    <Content Include="styles\niteflight\components\atoms\_tables.scss" />
+    <Content Include="styles\niteflight\components\atoms\_tabs-nav.scss" />
+    <Content Include="styles\niteflight\components\atoms\_thumbnails.scss" />
+    <Content Include="styles\niteflight\components\atoms\_tooltip.scss" />
+    <Content Include="styles\niteflight\components\atoms\_typography.scss" />
+    <Content Include="styles\niteflight\components\atoms\_wells.scss" />
+    <Content Include="styles\niteflight\components\molecules\_button-groups.scss" />
+    <Content Include="styles\niteflight\components\molecules\_jumbotron.scss" />
+    <Content Include="styles\niteflight\components\molecules\_media.scss" />
+    <Content Include="styles\niteflight\components\molecules\_navbar.scss" />
+    <Content Include="styles\niteflight\components\molecules\_sidebar.scss" />
+    <Content Include="styles\niteflight\components\molecules\_testimony.scss" />
+    <Content Include="styles\niteflight\components\organisms\_media-list.scss" />
+    <Content Include="styles\niteflight\components\organisms\_mega-dropdown.scss" />
+    <Content Include="styles\niteflight\components\organisms\_page-header.scss" />
+    <Content Include="styles\niteflight\components\organisms\_panel-group.scss" />
+    <Content Include="styles\niteflight\components\organisms\_tabs.scss" />
+    <Content Include="styles\niteflight\templates\_article.scss" />
+    <Content Include="styles\niteflight\templates\_aside.scss" />
+    <Content Include="styles\niteflight\templates\_footer.scss" />
+    <Content Include="styles\niteflight\templates\_header.scss" />
+    <Content Include="styles\niteflight\templates\_section.scss" />
+    <Content Include="styles\niteflight\templates\_sidebar.scss" />
+    <Content Include="styles\niteflight\templates\_template.scss" />
+    <Content Include="styles\niteflight\vendor\_owl-carousel.scss" />
+    <Content Include="styles\niteflight\_fonts.scss" />
+    <Content Include="styles\niteflight\_global.scss" />
+    <Content Include="styles\niteflight\_grid.scss" />
+    <Content Include="styles\niteflight\_helpers.scss" />
+    <Content Include="styles\niteflight\_mixins.scss" />
+    <Content Include="styles\niteflight\_overrides.scss" />
+    <Content Include="styles\niteflight\_scaffolding.scss" />
+    <Content Include="styles\niteflight\_utilities.scss" />
+    <Content Include="styles\niteflight\_variables.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_address.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_alert.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_badges.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_blockquote.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_breadcrumbs.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_buttons.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_counter.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_dropdowns.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_forms.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_icon.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_images.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_labels.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_list-group.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_list.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_logo.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_navs.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_pagination.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_panels.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_progress-bars.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_table.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_thumbnails.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_tooltip.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_typography.scss" />
+    <Content Include="styles\white-wonder\components\atoms\_wells.scss" />
+    <Content Include="styles\white-wonder\components\molecules\_button-groups.scss" />
+    <Content Include="styles\white-wonder\components\molecules\_jumbotron.scss" />
+    <Content Include="styles\white-wonder\components\molecules\_media.scss" />
+    <Content Include="styles\white-wonder\components\molecules\_navbar.scss" />
+    <Content Include="styles\white-wonder\components\molecules\_sidebar.scss" />
+    <Content Include="styles\white-wonder\components\molecules\_testimony.scss" />
+    <Content Include="styles\white-wonder\components\organisms\_illustration.scss" />
+    <Content Include="styles\white-wonder\components\organisms\_media-list.scss" />
+    <Content Include="styles\white-wonder\components\organisms\_mega-dropdown.scss" />
+    <Content Include="styles\white-wonder\components\organisms\_page-header.scss" />
+    <Content Include="styles\white-wonder\pages\_whitewonder.scss" />
+    <Content Include="styles\white-wonder\templates\_article.scss" />
+    <Content Include="styles\white-wonder\templates\_aside.scss" />
+    <Content Include="styles\white-wonder\templates\_footer.scss" />
+    <Content Include="styles\white-wonder\templates\_header.scss" />
+    <Content Include="styles\white-wonder\templates\_section.scss" />
+    <Content Include="styles\white-wonder\templates\_sidebar.scss" />
+    <Content Include="styles\white-wonder\templates\_template.scss" />
+    <Content Include="styles\white-wonder\vendor\_owl-carousel.scss" />
+    <Content Include="styles\white-wonder\_fonts.scss" />
+    <Content Include="styles\white-wonder\_global.scss" />
+    <Content Include="styles\white-wonder\_grid.scss" />
+    <Content Include="styles\white-wonder\_helpers.scss" />
+    <Content Include="styles\white-wonder\_mixins.scss" />
+    <Content Include="styles\white-wonder\_overrides.scss" />
+    <Content Include="styles\white-wonder\_scaffolding.scss" />
+    <Content Include="styles\white-wonder\_utilities.scss" />
+    <Content Include="styles\white-wonder\_variables.scss" />
+    <Content Include="styles\niteflight\components\_atoms.scss" />
+    <Content Include="styles\niteflight\components\_molecules.scss" />
+    <Content Include="styles\niteflight\components\_organisms.scss" />
+    <Content Include="styles\niteflight\_templates.scss" />
+    <Content Include="styles\niteflight\_vendor.scss" />
+    <Content Include="styles\dayfrost\components\_atoms.scss" />
+    <Content Include="styles\dayfrost\components\_molecules.scss" />
+    <Content Include="styles\dayfrost\components\_organisms.scss" />
+    <Content Include="styles\dayfrost\_templates.scss" />
+    <Content Include="styles\dayfrost\_vendor.scss" />
+    <Content Include="styles\white-wonder\components\_atoms.scss" />
+    <Content Include="styles\white-wonder\components\_molecules.scss" />
+    <Content Include="styles\white-wonder\components\_organisms.scss" />
+    <Content Include="styles\white-wonder\_pages.scss" />
+    <Content Include="styles\white-wonder\_templates.scss" />
+    <Content Include="styles\white-wonder\_vendor.scss" />
+    <Content Include="styles\editor.scss" />
+    <None Include="Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53946</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53946/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\..\..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

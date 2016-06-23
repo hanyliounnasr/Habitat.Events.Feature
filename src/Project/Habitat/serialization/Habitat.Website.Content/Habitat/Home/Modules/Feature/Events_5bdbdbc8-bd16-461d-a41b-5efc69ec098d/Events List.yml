@@ -1,0 +1,30 @@
+﻿---
+ID: 88ea5651-c7d5-4147-9288-00ee43ba0f1c
+Parent: 5bdbdbc8-bd16-461d-a41b-5efc69ec098d
+Template: 848a7bc4-44e5-49b9-989a-571abd9e45e9
+Path: /sitecore/content/Habitat/Home/Modules/Feature/Events/Events List
+DB: master
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 750
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: Events List
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160617T163040Z
+    - ID: ac3fd4db-8266-476d-9635-67814d91e901
+      Hint: Summary
+      Value: Eventing list page is listing all events sorted by date
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      Hint: Title
+      Value: Events List
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: Events

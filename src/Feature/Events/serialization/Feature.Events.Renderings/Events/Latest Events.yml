@@ -1,0 +1,24 @@
+﻿---
+ID: 984ddd8e-2edf-4492-b3e1-3da7dd638f26
+Parent: 7257032a-d028-4a75-8fd8-a2a86bbb6a0e
+Template: 2a3e91a0-7987-44b5-ab34-35c2d9de83b9
+Path: /sitecore/layout/Renderings/Feature/Events/Latest Events
+DB: master
+SharedFields:
+- ID: 13f89250-ad6b-4548-882e-118a12c18094
+  Hint: Parameters Template
+  Value: {18B1AE24-A87F-4BBA-8738-A662EA06CCAE}
+- ID: ded9e431-3604-4921-a4b3-a6ec7636a5b6
+  Hint: Controller Action
+  Value: LatestEvents
+- ID: e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7
+  Hint: Controller
+  Value: Sitecore.Feature.Events.Controllers.EventsController, Sitecore.Feature.Events
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160618T150821Z

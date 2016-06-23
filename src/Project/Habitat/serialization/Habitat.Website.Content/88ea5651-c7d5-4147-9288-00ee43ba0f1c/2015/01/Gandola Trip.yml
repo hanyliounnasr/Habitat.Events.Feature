@@ -1,0 +1,42 @@
+﻿---
+ID: e779f193-70d8-49a4-90eb-84de1f7f885b
+Parent: 9bfde062-ace5-4011-9e4d-c96ffb345010
+Template: 93f80eee-3e24-468a-8279-c50673369518
+Path: /sitecore/content/Habitat/Home/Modules/Feature/Events/Events List/2015/01/Gandola Trip
+DB: master
+SharedFields:
+- ID: fb768b1d-c730-4dee-8da3-ba40366ce745
+  Hint: EventDate
+  Value: 20150106T220000Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160619T072905Z
+    - ID: 5b99d867-4ef0-44bb-927c-e15024889c23
+      Hint: EventTitle
+      Value: Gandola Trip
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 627b845e-b671-4cc7-93bb-475d302a374e
+      Hint: EventDetails
+      Value: |
+        <p><span style="text-align: justify; color: #424c5f; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu nisi, venenatis eget orci eu, aliquet vulputate nulla. Aenean congue tempor nisi a ornare. Cras ligula libero, sodales at convallis sollicitudin, tempor ut sem. Nam elit arcu, aliquam nec pellentesque et, elementum quis ante. Morbi lobortis lobortis eros.</span></p>
+        <p><span style="text-align: justify; color: #424c5f; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu nisi, venenatis eget orci eu, aliquet vulputate nulla. Aenean congue tempor nisi a ornare. Cras ligula libero, sodales at convallis sollicitudin, tempor ut sem. Nam elit arcu, aliquam nec pellentesque et, elementum quis ante. Morbi lobortis lobortis eros.</span></p>
+        <p>&nbsp;</p>
+        <p><span style="text-align: justify; color: #424c5f; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu nisi, venenatis eget orci eu, aliquet vulputate nulla. Aenean congue tempor nisi a ornare. Cras ligula libero, sodales at convallis sollicitudin, tempor ut sem. Nam elit arcu, aliquam nec pellentesque et, elementum quis ante. Morbi lobortis lobortis eros.</span></p>
+        <p><span style="text-align: justify; color: #424c5f; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu nisi, venenatis eget orci eu, aliquet vulputate nulla. Aenean congue tempor nisi a ornare. Cras ligula libero, sodales at convallis sollicitudin, tempor ut sem. Nam elit arcu, aliquam nec pellentesque et, elementum quis ante. Morbi lobortis lobortis eros.</span><span style="text-align: justify; color: #424c5f; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu nisi, venenatis eget orci eu, aliquet vulputate nulla. Aenean congue tempor nisi a ornare. Cras ligula libero, sodales at convallis sollicitudin, tempor ut sem. Nam elit arcu, aliquam nec pellentesque et, elementum quis ante. Morbi lobortis lobortis eros.</span></p>
+        <p>&nbsp;</p>
+    - ID: 8c2092f0-9fbe-4606-b54a-5970298dc315
+      Hint: EventSummary
+      Value: "<span style=\"text-align: justify; color: #424c5f; background-color: #ffffff;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu nisi, venenatis eget orci eu, aliquet vulputate nulla. Aenean congue tempor nisi a ornare. Cras ligula libero, sodales at convallis sollicitudin, tempor ut sem. Nam elit arcu, aliquam nec pellentesque et, elementum quis ante. Morbi lobortis lobortis eros.</span>"
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: Gandola Trip
+    - ID: ddc68006-90ac-454b-9d9b-5fc5640d1e19
+      Hint: EventImage
+      Value: "<image mediaid=\"{D30A5F7E-43EE-43EE-B550-F2A01409D031}\" />"

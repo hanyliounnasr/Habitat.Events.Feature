@@ -1,0 +1,50 @@
+﻿---
+ID: 54669e47-613e-489b-8e07-20d6308179c6
+Parent: 9750eb3a-69c4-4459-af4e-9ff313aaeb49
+Template: 93f80eee-3e24-468a-8279-c50673369518
+Path: /sitecore/content/Habitat/Home/Modules/Feature/Events/Events List/2016/06/Find your treasure competition at Katara
+DB: master
+SharedFields:
+- ID: 0dca829c-9fce-41f5-9990-c6182fefe905
+  Hint: SeoFollowLinks
+  Value: 
+- ID: 683d7237-206a-488f-9dee-4a4e41fb161d
+  Hint: CanIndex
+  Value: 
+- ID: 8d5c486e-a0e3-4dbe-9a4a-cdff93594bda
+  Hint: IncludeInSearchResults
+  Value: 
+- ID: c9283d9e-7c29-4419-9c28-5a5c8ff53e84
+  Hint: __Bucketable
+  Value: 
+- ID: fb768b1d-c730-4dee-8da3-ba40366ce745
+  Hint: EventDate
+  Value: 20160609T220000Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160618T132408Z
+    - ID: 5b99d867-4ef0-44bb-927c-e15024889c23
+      Hint: EventTitle
+      Value: "\"Find your treasure\" competition at Katara"
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 627b845e-b671-4cc7-93bb-475d302a374e
+      Hint: EventDetails
+      Value: |
+        <p style="padding: 0px; text-align: justify; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu nisi, venenatis eget orci eu, aliquet vulputate nulla. Aenean congue tempor nisi a ornare. Cras ligula libero, sodales at convallis sollicitudin, tempor ut sem. Nam elit arcu, aliquam nec pellentesque et, elementum quis ante. Morbi lobortis lobortis eros. Quisque non nisl viverra, commodo mauris vitae, ultrices mauris. Sed posuere turpis eu aliquet pellentesque. Phasellus faucibus lacus sit amet turpis accumsan pellentesque. Phasellus tincidunt sit amet quam ac malesuada. In iaculis consequat commodo. Donec ante enim, vehicula sit amet ornare nec, pretium sed arcu. Nulla commodo nisl et nisi efficitur mollis sed in quam. Nunc sit amet congue felis, quis efficitur elit.</p>
+        <p style="margin-bottom: 15px; padding: 0px; text-align: justify; background-color: #ffffff;">Nullam consequat ipsum nibh, at pulvinar ex ultricies at. Aenean nec feugiat ipsum. Donec ornare, lacus quis tincidunt varius, sem arcu vulputate lectus, tempus luctus mauris tellus vitae arcu. Praesent vitae elit dui. Maecenas in turpis ipsum. Pellentesque consectetur mi eros, id porttitor mauris rhoncus condimentum. Nam a vestibulum dui. Quisque maximus, ipsum vel faucibus pharetra, magna nibh auctor quam, non cursus ligula felis in nunc. Praesent in nunc sed nisl pharetra imperdiet. Nulla cursus ex sed sem pulvinar vehicula ut a diam. Maecenas laoreet est ac nulla molestie consequat et non lorem. Quisque pellentesque lobortis erat, in pellentesque diam rutrum vel. Suspendisse gravida nec dolor sed ultrices. Praesent dignissim sapien sed enim semper rhoncus. Fusce iaculis dolor nec nibh sagittis condimentum. Nam at sodales magna.</p>
+    - ID: 8c2092f0-9fbe-4606-b54a-5970298dc315
+      Hint: EventSummary
+      Value: "<span style=\"text-align: justify; background-color: #ffffff;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu nisi, venenatis eget orci eu, aliquet vulputate nulla. Aenean congue tempor nisi a ornare. Cras ligula libero, sodales at convallis sollicitudin, tempor ut sem. Nam elit arcu, aliquam nec pellentesque et, elementum quis ante. Morbi lobortis lobortis eros.</span>"
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: "\"Find your treasure\" competition at Katara"
+    - ID: ddc68006-90ac-454b-9d9b-5fc5640d1e19
+      Hint: EventImage
+      Value: "<image mediaid=\"{0E882593-65D1-44BD-83C4-B2CC48C9C9E7}\" />"

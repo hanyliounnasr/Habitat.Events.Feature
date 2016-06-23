@@ -1,0 +1,23 @@
+﻿---
+ID: 9750eb3a-69c4-4459-af4e-9ff313aaeb49
+Parent: d6794a0e-352a-41d4-8b9e-defeeee09cb0
+Template: 1cddacf9-a00b-46ec-9ce3-28bb8d722006
+Path: /sitecore/content/Habitat/Home/Modules/Feature/Events/Events List/2016/06
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: 06
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160618T132135Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      Hint: Title
+      Value: 06
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: 06

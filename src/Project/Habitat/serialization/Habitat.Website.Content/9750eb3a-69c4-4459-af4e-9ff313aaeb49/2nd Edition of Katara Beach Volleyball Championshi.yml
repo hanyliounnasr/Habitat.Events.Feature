@@ -1,0 +1,39 @@
+﻿---
+ID: da67f9f7-27a0-4525-a7c2-87120d253f19
+Parent: 9750eb3a-69c4-4459-af4e-9ff313aaeb49
+Template: 93f80eee-3e24-468a-8279-c50673369518
+Path: /sitecore/content/Habitat/Home/Modules/Feature/Events/Events List/2016/06/2nd Edition of Katara Beach Volleyball Championship 9
+DB: master
+SharedFields:
+- ID: fb768b1d-c730-4dee-8da3-ba40366ce745
+  Hint: EventDate
+  Value: 20160608T220000Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160618T132352Z
+    - ID: 5b99d867-4ef0-44bb-927c-e15024889c23
+      Hint: EventTitle
+      Value: 2nd Edition of Katara Beach Volleyball Championship 9
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 627b845e-b671-4cc7-93bb-475d302a374e
+      Hint: EventDetails
+      Value: |
+        <p style="padding: 0px; text-align: justify; background-color: #ffffff;">Sed finibus id erat nec feugiat. Nullam at nunc nec nunc rhoncus suscipit id ac tortor. Fusce vitae auctor elit. In sed elit congue, tristique quam sed, blandit metus. Maecenas id augue tincidunt, consectetur elit nec, hendrerit tellus. Maecenas scelerisque faucibus eros quis dictum. Aliquam tincidunt mattis leo convallis ultricies. Sed dapibus enim eu nibh facilisis euismod. Suspendisse aliquam at justo vitae sollicitudin. Fusce suscipit pharetra libero in tempus. Nullam neque tortor, rhoncus sed ligula in, rhoncus aliquet sem. Sed id tellus sit amet dui dictum tincidunt nec eget mauris. Phasellus pretium dignissim purus, ac consequat sem sollicitudin non. Mauris cursus ultricies nisi. Nullam dignissim posuere sodales.</p>
+        <p style="padding: 0px; text-align: justify; background-color: #ffffff;">Etiam et auctor eros. Sed in nisi nulla. Duis feugiat ipsum ut sapien ullamcorper, eu interdum nisi volutpat. Aenean in nunc faucibus, mollis augue eget, luctus sem. Nam id mattis urna. Integer odio nulla, ultricies et blandit vitae, volutpat vel velit. Praesent dapibus ante a arcu bibendum, nec elementum urna aliquet.</p>
+        <p style="margin-bottom: 15px; padding: 0px; text-align: justify; background-color: #ffffff;">Sed lacinia vel sem at tincidunt. Suspendisse tristique risus ut mauris lacinia placerat sed nec turpis. Etiam sit amet nisl ac massa aliquet commodo. Praesent congue tellus est, eget elementum augue volutpat vel. Suspendisse condimentum eros at neque aliquet, nec eleifend lacus ornare. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque at nisi eget odio ornare auctor in vel metus. Pellentesque eu elit lacinia, finibus mauris ac, ullamcorper est. Maecenas sem est, vulputate id sodales in, scelerisque ac sem. Vivamus accumsan neque ligula, sodales sagittis ligula aliquam et. Aenean porttitor ipsum tellus, vel dictum libero suscipit vel. Suspendisse volutpat, tortor at tincidunt pharetra, lectus tortor fringilla mi, a condimentum est purus sit amet purus. In vitae lorem quis felis auctor malesuada. Aliquam eget ex varius, dignissim magna ac, molestie elit.</p>
+    - ID: 8c2092f0-9fbe-4606-b54a-5970298dc315
+      Hint: EventSummary
+      Value: "<span style=\"text-align: justify; background-color: #ffffff;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu nisi, venenatis eget orci eu, aliquet vulputate nulla. Aenean congue tempor nisi a ornare.</span>"
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: 2nd Edition of Katara Beach Volleyball Championship 9
+    - ID: ddc68006-90ac-454b-9d9b-5fc5640d1e19
+      Hint: EventImage
+      Value: "<image mediaid=\"{FF8E14C4-79AA-4D80-A2E5-D07BFD835411}\" />"

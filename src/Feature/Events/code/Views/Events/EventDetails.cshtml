@@ -1,0 +1,12 @@
+﻿@using Sitecore.Feature.Events
+@using Sitecore.Foundation.Alerts
+@using Sitecore.Foundation.Alerts.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+@if (!Model?.Item?.IsDerived(Templates.EventDetails.ID) ?? true)
+{
+  @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.EventDetails.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID);
+  return;
+}
+
+@Html.Sitecore().Field(Templates.EventDetails.Fields.Details.ToString(), Model.Item)

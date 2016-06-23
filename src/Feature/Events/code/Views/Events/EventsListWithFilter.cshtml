@@ -1,0 +1,54 @@
+﻿@using Sitecore.Feature.Events
+@using Sitecore.Foundation.SitecoreExtensions.HtmlHelpers
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Repositories
+@using Sitecore.Feature.Events.Texts
+@using Sitecore.Mvc
+@model Sitecore.Feature.Events.Models.EventItems
+
+@using (Html.BeginRouteForm(Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName, FormMethod.Post, new { @class = "form-inline" }))
+{
+@Html.FormHandler()
+<div class="row">
+    <div class="form-group col-md-3">
+        @Html.LabelFor(x => x.Year, new { id = "eventYear", @placeholder = Captions.Year })
+        @Html.DropDownListFor(x => x.Year, new SelectList(
+                  new List<Object>{
+          new { value = 0 , text = "Select Year"  },
+                       new { value = 2016 , text = "2016"  },
+                       new { value = 2015 , text = "2015" }
+                    },
+                  "value",
+                  "text"))
+    </div>
+    <div class="form-group col-md-3">
+        @Html.LabelFor(x => x.Month, new { id = "eventMonth", @placeholder = Captions.Month })
+        @Html.DropDownListFor(x => x.Month, new SelectList(
+                  new List<Object>{
+                       new { value = 0 , text = "Select Month"  },
+                       new { value = 1 , text = "January" },
+                       new { value = 2 , text = "February" },
+                       new { value = 3 , text = "March" },
+                       new { value = 4 , text = "April" },
+                       new { value = 5 , text = "May" },
+                       new { value = 6 , text = "June" },
+                       new { value = 7 , text = "July" },
+                       new { value = 8 , text = "August" },
+                       new { value = 9 , text = "September" },
+                       new { value = 10 , text = "October" },
+                       new { value = 11 , text = "November" },
+                       new { value = 12 , text = "December" }
+                  },
+                  "value",
+                  "text"))
+    </div>
+    <div class="form-group col-md-6">
+        <input type="submit" class="btn btn-primary btn-sm" value="@Captions.Filter" />
+    </div>
+</div>
+
+<br /><br /><hr />
+
+}
+
+@Html.Partial("EventsList", Model)

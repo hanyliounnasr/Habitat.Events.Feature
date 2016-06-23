@@ -1,0 +1,42 @@
+﻿---
+ID: f0475ff0-66d4-4ed8-9459-f6b5ff2d2921
+Parent: 930bc38e-e92d-490b-901b-ab5821180db0
+Template: 93f80eee-3e24-468a-8279-c50673369518
+Path: /sitecore/content/Habitat/Home/Modules/Feature/Events/Events List/2016/05/EID AL ADHA
+DB: master
+SharedFields:
+- ID: fb768b1d-c730-4dee-8da3-ba40366ce745
+  Hint: EventDate
+  Value: 20160516T220000Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160619T072924Z
+    - ID: 5b99d867-4ef0-44bb-927c-e15024889c23
+      Hint: EventTitle
+      Value: EID AL ADHA
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 627b845e-b671-4cc7-93bb-475d302a374e
+      Hint: EventDetails
+      Value: |
+        <p><span style="text-align: center; color: #323a45;">In celebration of Eid Al Adha, families will visit The Pearl-Qatar to enjoy several activities along with their children. Activities included: Bubble Show, Aladdin Theatre Show, Art Workshop, Decorate Your Cupcake, Paint Me Workshop and much more. Children also will take the opportunity to enjoy the kid&rsquo;s arena at the Tickles &amp; Giggles play center, where they will be also treated to complimentary cotton candy and popcorn.</span></p>
+        <p>&nbsp;</p>
+        <p><span style="text-align: justify; color: #424c5f; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu nisi, venenatis eget orci eu, aliquet vulputate nulla. Aenean congue tempor nisi a ornare. Cras ligula libero, sodales at convallis sollicitudin, tempor ut sem. Nam elit arcu, aliquam nec pellentesque et, elementum quis ante. Morbi lobortis lobortis eros.</span></p>
+        <p><span style="text-align: justify; color: #424c5f; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu nisi, venenatis eget orci eu, aliquet vulputate nulla. Aenean congue tempor nisi a ornare. Cras ligula libero, sodales at convallis sollicitudin, tempor ut sem. Nam elit arcu, aliquam nec pellentesque et, elementum quis ante. Morbi lobortis lobortis eros.</span><span style="text-align: justify; color: #424c5f; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu nisi, venenatis eget orci eu, aliquet vulputate nulla. Aenean congue tempor nisi a ornare. Cras ligula libero, sodales at convallis sollicitudin, tempor ut sem. Nam elit arcu, aliquam nec pellentesque et, elementum quis ante. Morbi lobortis lobortis eros.</span><span style="text-align: justify; color: #424c5f; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu nisi, venenatis eget orci eu, aliquet vulputate nulla. Aenean congue tempor nisi a ornare. Cras ligula libero, sodales at convallis sollicitudin, tempor ut sem. Nam elit arcu, aliquam nec pellentesque et, elementum quis ante. Morbi lobortis lobortis eros.</span></p>
+        <p>&nbsp;</p>
+        <p><span style="text-align: justify; color: #424c5f; background-color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu nisi, venenatis eget orci eu, aliquet vulputate nulla. Aenean congue tempor nisi a ornare. Cras ligula libero, sodales at convallis sollicitudin, tempor ut sem. Nam elit arcu, aliquam nec pellentesque et, elementum quis ante. Morbi lobortis lobortis eros.</span></p>
+    - ID: 8c2092f0-9fbe-4606-b54a-5970298dc315
+      Hint: EventSummary
+      Value: Kids will be enjoying a variety of activities such as face painting, pop cor and cotton candy distribution, stilt walker, drawing area, kitchen workshop, plays, etc..
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: EID AL ADHA
+    - ID: ddc68006-90ac-454b-9d9b-5fc5640d1e19
+      Hint: EventImage
+      Value: "<image mediaid=\"{BFA4104E-1613-4FC4-B161-AC5D99F40445}\" />"

@@ -1,0 +1,38 @@
+﻿---
+ID: 5bdbdbc8-bd16-461d-a41b-5efc69ec098d
+Parent: f7434df7-e32e-4f8c-a50e-27c476f4dc32
+Template: 94a8c8e9-690b-4e65-98e7-f95800222767
+Path: /sitecore/content/Habitat/Home/Modules/Feature/Events
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{565F9960-4E47-4DA4-9406-0A29DD09911F}" s:ds="" s:par="" />
+            <r uid="{8BC309CD-C346-4EDF-A8EB-9EB8F1FE6084}" s:ds="" s:id="{984DDD8E-2EDF-4492-B3E1-3DA7DD638F26}" s:par="Count=3" s:ph="/page-layout/col-wide-1" />
+          </d>
+        </r>
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: Events
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160618T124220Z
+    - ID: ac3fd4db-8266-476d-9635-67814d91e901
+      Hint: Summary
+      Value: |
+        <p>The Events module contains events functionality including lists, filter and event details.</p>
+        <p><span style="color: #c8244f; background-color: #ffffff;"><a href="~/link.aspx?_id=88EA5651C7D54147928800EE43BA0F1C&amp;_z=z">See the events list here</a></span></p>
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      Hint: Title
+      Value: Events
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: Events

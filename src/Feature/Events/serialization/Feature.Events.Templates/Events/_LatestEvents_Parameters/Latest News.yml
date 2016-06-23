@@ -1,0 +1,17 @@
+﻿---
+ID: 88e9e3e5-4f1a-4af5-9849-de7430381dc0
+Parent: 18b1ae24-a87f-4bba-8738-a662ea06ccae
+Template: e269fbb5-3750-427a-9149-7aa950b49301
+Path: /sitecore/templates/Feature/Events/_LatestEvents_Parameters/Latest News
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160618T151348Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

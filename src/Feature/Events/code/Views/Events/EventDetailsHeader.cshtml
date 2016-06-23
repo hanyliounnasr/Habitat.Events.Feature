@@ -1,0 +1,26 @@
+﻿@using Sitecore.Feature.Events
+@using Sitecore.Foundation.Alerts
+@using Sitecore.Foundation.Alerts.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+@if (!Model?.Item?.IsDerived(Templates.EventDetails.ID) ?? true)
+{
+  @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.EventDetails.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
+  return;
+}
+
+<div class="container">
+  <h1>
+    @Html.Sitecore().Field(Templates.EventDetails.Fields.Title.ToString(), Model.Item)
+    @if (Model.Item.Fields[Templates.EventDetails.Fields.Summary].HasValue || Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+      <br />
+      <small>
+        @Html.Sitecore().Field(Templates.EventDetails.Fields.Summary.ToString(), Model.Item)
+      </small>
+    }
+  </h1>
+  <p>
+    <time>@Html.Sitecore().Field(Templates.EventDetails.Fields.Date.ToString(), new { format = "MMMM dd, yyyy" })</time>
+  </p>
+</div>
