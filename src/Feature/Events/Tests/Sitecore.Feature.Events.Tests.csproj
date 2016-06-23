@@ -145,10 +145,6 @@
       <Project>{80213F24-577F-4F0B-A3B8-62485EA4D2F3}</Project>
       <Name>Sitecore.Foundation.Indexing</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\News\code\Sitecore.Feature.News.csproj">
-      <Project>{1aad6f22-9b6d-4688-8ea5-1ae7044031f7}</Project>
-      <Name>Sitecore.Feature.News</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
